@@ -10,7 +10,7 @@ labels:
   - Java
   - GitHub
 summary: A game based off of [Agar.IO](http://agar.io/), a popular web-based game, that my team developed as a group project for ICS 111.
----5.
+---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 

@@ -2,17 +2,15 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+title: dots.ICS
+permalink: projects/dots.ICS
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-12-03
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Java
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
----
+summary: A game based off of Agar.IO[http://agar.io/], a popular web-based game, that my team developed as a group project for ICS 111.
+---5.
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
@@ -22,4 +20,4 @@ Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application
 
 In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/gcalica/dots.ICS"><i class="large github icon"></i>gcalica/dots.ICS</a>

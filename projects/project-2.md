@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/vacay-square.png
 title: dots.ICS
-permalink: projects/dots.ICS
+permalink: projects/dotsICS
 # All dates must be YYYY-MM-DD format!
 date: 2017-12-03
 labels:

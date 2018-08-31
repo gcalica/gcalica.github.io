@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/remixproj.png
 title: Remix Reflection
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ labels:
 summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative outlet. I chose to express my English paper as a program. 
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui medium floated rounded image" src="../images/remixproj.png">
 In my ENG 100 class, we wrote three papers prior to this project. As for this fourth project, we could "remix" any of our previous three
 papers into a different form of creative outlet. We could express a paper as a song, video, presentation, etc... 
 My second paper that I wrote was about how computers and technology has made our lives easier, and their major role in our society. Rather than create a Microsoft Powerpoint, I decided that my creative outlet would be to code my own presentation slides that summarizes my second paper. 

@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/dotsicshome.png
-title: dots.ICS
+title: dotsICS
 permalink: projects/dotsICS
 # All dates must be YYYY-MM-DD format!
 date: 2017-12-03

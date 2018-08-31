@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/remixproj.png
 title: Remix Reflection
-permalink: projects/cotton
+permalink: projects/remixreflection
 # All dates must be YYYY-MM-DD format!
 date: 2017-12-08
 labels:

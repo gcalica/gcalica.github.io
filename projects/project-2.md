@@ -20,7 +20,7 @@ In the game, the entity that the player controls with mouse direction is a Blob.
 <img class="ui medium right floated rounded image" src="../images/dotsicsgame.png">
 There are also green entities called Viruses. If the player Blob or an enemy Blob touches one of the Viruses&mdashand they are bigger in size than the Virus&mdashthen the Virus infects them, making them smaller.
 
-The main goal of the game is for the player to control the Blob with the mouse, being the last Blob standing alive by eating all the other enemy Blobs. Otherwise, another enemy Blob will win the game if they eat all the other enemy Blobs and the player.
+The main goal of the game is for the player to control the Blob with the mouse, being the last Blob standing alive by eating all the other enemy Blobs. Otherwise, another enemy Blob will win the game if they eat all the other enemy Blobs and the player. Here is a Youtube demonstration of the game: <div class="ui embed" data-source="youtube" data-id="7lx8PrkpHqQ" ></div>
 
 In this project, I programmed the behavior and interaction of all the entities (Player Blobs & Enemy Blobs, Dots, and Viruses) with each other. I also designed and created the user interface for the beginning and endgame screens. As a final project for our ICS 111 class, I was able to have the opportunity to combine all the knowledge and skills I have learned from the past semester into this game. I utilized my knowledge in object-oriented programming to model the game and further expand my skill of being able to create and manipulate interaction between objects. 
  

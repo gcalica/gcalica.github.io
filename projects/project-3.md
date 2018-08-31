@@ -14,7 +14,11 @@ labels:
 summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative medium. I chose to express my English paper as a program. 
 ---
 
-<img class="ui large right circular floated image" src="../images/remixproj.png">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/remixproj.png">
+  <img class="ui image" src="../images/remixproj2.png">
+  <img class="ui image" src="../images/remixproj3.png">
+</div>
 In my ENG 100 class, we wrote three papers prior to this project. As for this fourth project, we could "remix" any of our previous three
 papers into a different form of creative medium. We could express a paper as a song, video, presentation, etc... 
 

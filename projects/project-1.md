@@ -11,7 +11,7 @@ labels:
 summary: The second project I did for my ICS 111 (Intro to Comp Sci.) class. It was a project working with and testing my knowledge of arrays and object collision.
 ---
 
-<img class="ui large right circular floated image" src="../images/remixproj.png">
+<img class="ui large right circular floated image" src="../images/roombrah.png">
 Roombrah is the second project I did for my ICS 111 class. It was a project specifically dealing with 2D arrays and how to work with object collision using images. On the visual side of this program, the character Mario spawns on the top left of the map and continously moves around the screen. When he touches a wall, he bounces off of it, pushing him into the opposite direction. The program ends when Mario collects all the coins. 
 
 There isn't much the user can do in this program; he can only run the program and watch Mario as he moves around the screen collecting the coins. The program is fixed so that it is guaranteed that Mario will collect all the coins. This project was solely focused on working with arrays and object collision on the back-end of development. 

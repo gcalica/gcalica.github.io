@@ -25,4 +25,5 @@ The main goal of the game is for the player to control the Blob with the mouse, 
 In this project, I programmed the behavior and interaction of all the entities (Player Blobs & Enemy Blobs, Dots, and Viruses) with each other. I also designed and created the user interface for the beginning and endgame screens. As a final project for our ICS 111 class, I was able to have the opportunity to combine all the knowledge and skills I have learned from the past semester into this game. I utilized my knowledge in object-oriented programming to model the game and further expand my skill of being able to create and manipulate interaction between objects. 
  
 Here is a [Youtube Demo](https://youtu.be/7lx8PrkpHqQ) of the project.
+
 Source: <a href="https://github.com/gcalica/dots.ICS"><i class="large github icon"></i>gcalica/dots.ICS</a>

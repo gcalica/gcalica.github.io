@@ -29,17 +29,22 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "data mining",
+      "name": "Game Development",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Mobile App Development",
+      "keywords": [
+      ]
+    }
+    {
+      "name": "Video Editing",
       "keywords": [
       ]
     }
@@ -60,6 +65,8 @@
         "MacOS",
         "Windows 10",
         "Eclipse",
+        "Microsoft Office",
+        "Hitfilm Express"
       ]
     }
   ],

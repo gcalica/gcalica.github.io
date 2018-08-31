@@ -24,5 +24,5 @@ In this program, you can click through the next or previous "slides" by clicking
 
 This project has made me realize that the scope that programming touches isn't just limited to large scale apps or complex algorithims. But rather that programming is also an excellent form of medium to express your creativity in. It has its technical and computation side that we are familiar with, but there also exists a creative side to programming. I became interested in computers and programming when I realized that they are everywhere around us. And this project gave me the opportunity to express that interest by physically showing that interest itself--through coding this project.
 
-Source: <a href="https://github.com/gcalica/ENG100Project4"><i class="large github icon"></i>gcalica/Remix Reflection</a>
+Source: <a href="https://github.com/gcalica/ENG100Project4"><i class="large github icon"></i>gcalica/ENG100Project4</a>
 

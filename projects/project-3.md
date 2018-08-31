@@ -24,7 +24,6 @@ In this program, you can click through the next or previous "slides" by clicking
 
 This project has made me realize that the scope that programming touches isn't just limited to large scale apps or complex algorithims. But rather that programming is also an excellent form of medium to express your creativity in. It has its technical and computation side that we are familiar with, but there also exists a creative side to programming. I became interested in computers and programming when I realized that they are everywhere around us. And this project gave me the opportunity to express that interest by physically showing that interest itself--through coding this project. On the technical side of things, this project has taught me how to use a flowchart to maintain logic consistency throughout my program. I learned to make sure that moving to the next slide and then back to the previous slide shows the slide in its previous state it was in prior to moving to the next slide. 
 
-<div class="ui embed" data-source="youtube" data-id="HeKGENRX3Sw" >
-</div>
+Here is a [Youtube Demo](https://youtu.be/HeKGENRX3Sw) of the project.
 Source: <a href="https://github.com/gcalica/ENG100Project4"><i class="large github icon"></i>gcalica/ENG100Project4</a>
 

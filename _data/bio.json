@@ -1,97 +1,82 @@
 {
-  "basics": {
-    "name": "Gian Calica",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/images/unnamed.jpg",
-    "email": "gcalica@hawaii.edu",
-    "phone": "",
-    "website": "https://gcalica.github.io",
-    "summary": "I am currently pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2021.",
-    "location": {
-      "address": "",
-      "postalCode": "96797",
-      "city": "Waipahu",
-      "countryCode": "USA",
-      "region": "Hawaii"
-    },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "gcalica",
-        "url": "http://github.com/gcalica"
-      },
-      {
-        "network": "linkedin",
-        "username": "giancalica",
-        "url": "https://www.linkedin.com/in/giancalica"
-      }
-    ]
-  },
-  "interests": [
-    {
-      "name": "Software Engineering",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Game Development",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Mobile App Development",
-      "keywords": [
-      ]
-    }
-    {
-      "name": "Video Editing",
-      "keywords": [
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "Java",
-        "Javascript",
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Windows 10",
-        "Eclipse",
-        "Microsoft Office",
-        "Hitfilm Express"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2021)",
-      "studyType": "B.S.",
-      "startDate": "2017-08-21",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-  ],
-  "volunteer": [
-  ],
-  "awards": [
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
-  ]
+	"basics": {
+		"name": "Gian Calica",
+		"label": "Student",
+		"picture": "https://techfolios.github.io/images/unnamed.jpg",
+		"email": "gcalica@hawaii.edu",
+		"phone": "",
+		"website": "https://gcalica.github.io",
+		"summary": "I am currently pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2021.",
+		"location": {
+			"address": "",
+			"postalCode": "96797",
+			"city": "Waipahu",
+			"countryCode": "USA",
+			"region": "Hawaii"
+		},
+		"profiles": [{
+				"network": "github",
+				"username": "gcalica",
+				"url": "http://github.com/gcalica"
+			},
+			{
+				"network": "linkedin",
+				"username": "giancalica",
+				"url": "https://www.linkedin.com/in/giancalica"
+			}
+		]
+	},
+	"interests": [{
+			"name": "Software Engineering",
+			"keywords": []
+		},
+		{
+			"name": "Game Development",
+			"keywords": []
+		},
+		{
+			"name": "Mobile App Development",
+			"keywords": []
+		},
+		{
+			"name": "Video Editing",
+			"keywords": []
+		}
+	],
+	"skills": [{
+			"name": "Languages and Frameworks",
+			"level": "",
+			"keywords": [
+				"Java",
+				"Javascript"
+			]
+		},
+		{
+			"name": "Toolsets/OS",
+			"level": "",
+			"keywords": [
+				"MacOS",
+				"Windows 10",
+				"Eclipse",
+				"Microsoft Office",
+				"Hitfilm Express"
+			]
+		}
+	],
+	"education": [{
+		"institution": "University of Hawaii, Honolulu, HI",
+		"area": "Computer Science (expected Spring, 2021)",
+		"studyType": "B.S.",
+		"startDate": "2017-08-21",
+		"endDate": "Present",
+		"gpa": "",
+		"courses": []
+	}],
+	"work": [],
+	"volunteer": [],
+	"awards": [],
+	"references": [{
+		"name": "Available upon request",
+		"reference": ""
+	}]
 }

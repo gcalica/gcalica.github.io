@@ -1,44 +1,47 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/roombrah.png
+title: Roombrah
+permalink: projects/roombrah
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2017-10-24
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+summary: The second project I did for my ICS 111 (Intro to Comp Sci.) class. It was a project working with and testing my knowledge of arrays and object collision.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+<img class="ui large right circular floated image" src="../images/remixproj.png">
+Roombrah is the second project I did for my ICS 111 class. It was a project specifically dealing with 2D arrays and how to work with object collision using images. On the visual side of this program, the character Mario spawns on the top left of the map and continously moves around the screen. When he touches a wall, he bounces off of it, pushing him into the opposite direction. The program ends when Mario collects all the coins. 
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+There isn't much the user can do in this program; he can only run the program and watch Mario as he moves around the screen collecting the coins. The program is fixed so that it is guaranteed that Mario will collect all the coins. This project was solely focused on working with arrays and object collision on the back-end of development. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+Here is a snippet of the code from this program that places the coin images, background floor images, and wall images at the edges of the screen using simple arithmethic to spawn them in a grid-like pattern. 
+```java
+for(int row = 0; row < HEIGHT; row++) { 
+			for (int column = 0; column < charInput.length(); column++) {
+				char ch = charInput.charAt(column); 
+				switch(ch) { 
+				case 'W': 
+					wallArray[wallArrayCount] = EZ.addImage("redwood.png", 16 + (column * 32), 16 + (row * 32)); 
+					wallArrayCount++; 
+					break; 
+				case 'C': 
+					coinArray[coinArrayCount] = EZ.addImage("coin.png", 16 + (column * 32), 16 + (row * 32));
+					coinArrayCount++; 
+					break; 
+				case '.': 
+					EZ.addImage("floor.png", 16 + (column * 32), 16 + (row * 32)); 
+					break; 
+				default: 
+					break;
+				} 
+			} 
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+In this project, I learned how to create a grid-like pattern on a screen using two FOR loops. Then I learned how to work with this grid by using some arithmethic to place images at the exact place I want them to be. With the images that were placed onto the screen, I learned how tell the program if the character has collided with either a coin image or a wall image.
+
+Here is a [Youtube Demo](https://youtu.be/msCt_rNQeWY) of this project.
 
 
 

@@ -9,9 +9,11 @@ labels:
   - Learning
 ---
 
+  I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. I was already getting comfortable with Java, especially with inheritance in an object-oriented programming language. Heading into my third semester, my ICS 314 (Software Engineering) course uses Javascript instead of Java. After two weeks of reading into Javascript, I will share my thoughts and worries on Javascript.
+
 # Syntax
 
-  There were a few immediate differences that I noticed when I first started reading into Javascript between JS and Java. I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. I was already getting comfortable with Java, especially with inheritance in an object-oriented programming language. The most obvious difference between JS and Java was the syntax. Instead of declaring variables with their primitives, Javascript simply uses "let" and "const" followed by a variable. That got me immediately thinking, "how do I know what type of variable this is, then?"
+  The most obvious difference between Javascript and Java was the syntax. Instead of declaring variables with their primitives, Javascript simply uses "let" and "const" followed by a variable. That got me immediately thinking, "how do I know what type of variable this is, then?"
   
 Instead of having to declare the type of the variable like in Java,
   ```java

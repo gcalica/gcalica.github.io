@@ -14,7 +14,7 @@ labels:
 summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative medium. I chose to express my English paper as a program. 
 ---
 
-<div class="ui medium rounded images">
+<div class="ui small circular rounded images">
   <img class="ui image" src="../images/remixproj.png">
   <img class="ui image" src="../images/remixproj2.png">
   <img class="ui image" src="../images/remixproj3.png">

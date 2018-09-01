@@ -29,7 +29,7 @@ function test(arr) {
   arr[0] = "Hello World!";
 }
 ```
-  In the code snippet above, we simply passed *arr* as an argument for the test function. But if we take a look at what the function is doing, then we can see clearly that *arr* is suppose to be an array. However, it seems like that Javascript doesn't seem to care. It just magically seems to know that arr is a function based on how we inserted the string "Hello World" into the 0*th* index of *arr*. The part that worries me the most when it comes to this "weakly typed" language is that it could possibly be harder to debug code if I don't explicitly know what the type an object is right away. 
+  In the code snippet above, we simply passed *arr* as an argument for the test function. But if we take a look at what the function is doing, then we can see clearly that *arr* is suppose to be an array. However, it seems like Javascript doesn't seem to care. It just magically seems to know that arr is a function based on how we inserted the string "Hello World" into the 0*th* index of *arr*. The part that worries me the most when it comes to this "weakly typed" language is that it could possibly be harder to debug code if I don't explicitly know what the type an object is right away. 
 
 ### Classes
   Another difference that I learned when it comes to Javascript is that it uses an object-oriented programming style called **prototypal** OO. In Java, there is a distinct difference between a *Class* and an *object*. A Class is the blueprint that creates objects, which are instances of a Class, that contain the object's behavior and states. 

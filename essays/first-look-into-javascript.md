@@ -10,12 +10,12 @@ labels:
 ---
 
 <img class="ui small right circular floated image" src="../images/jslogo.png">
-  I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. I was already getting comfortable with Java, especially with inheritance in an object-oriented programming language. Heading into my third semester, my ICS 314 (Software Engineering) course uses Javascript instead of Java. After some reading into Javascript, these are my thoughts and worries on Javascript.
+  I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. Heading into my third semester as a Comp Sci. major, my ICS 314 (Software Engineering) course uses Javascript instead of Java. After some reading into Javascript, these are my thoughts and worries on Javascript.
 
 # Behavior
 
 ### Weakly Typed
-  The most immediate difference between Javascript and Java was the declaration of variables. Instead of declaring variables with their primitives, Javascript simply uses *let* and *const* followed by a variable. That got me immediately thinking, "how do I know what type of variable this is, then?"
+  The most immediate difference between Javascript and Java was the declaration of variables. Instead of declaring variables with their explicit type, Javascript simply uses *let* and *const* followed by a variable. That got me immediately thinking, "how do I know what type of variable this is, then?"
   
 Instead of having to declare the type of the variable like in Java,
   ```java

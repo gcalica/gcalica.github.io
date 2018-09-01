@@ -38,3 +38,5 @@ In the code snippet above, we simply passed *arr* as an argument for the test fu
 
 One particular thing that I am interested about when it comes to Javascript is functional programming. We all know that Java is an OOP language which means that it uses objects to model real world things. But what if the program that I want to code doesn't need to be modeled after a real world object? In particular, what if I don't want my "objects" and their properties to be constantly changing all over the place. I believe that is when functional programming comes into play. With my limited knowledge of the subject, I think functional programming aims to have *functions* rather than objects as the building blocks for a program. Rather than modifying the objects themselves, the objects are passed around functions and those functions do the work instead. Functional programming emphasizes on avoiding changing states and working with mutable data. 
 
+***
+T

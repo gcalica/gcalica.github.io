@@ -42,4 +42,4 @@ function test(arr) {
   Rather than modifying the objects themselves, the objects are passed around functions and those functions do the work instead. Functional programming emphasizes on avoiding changing states and working with mutable data. 
 
 ***
-T
+Overall, I am excited to expand my skillset through learning Javascript. Although Javascript isn't just limited to web development, I still do feel though and have heard that there could be better programming languages than Javascript if I were to use it for non-web development use. Regardless, being able to build a web app through Javascript would be an important skill to have. In the future, I do plan on building websites for my own personal use; therefore, learning Javascript is a good way to start for this future plan.

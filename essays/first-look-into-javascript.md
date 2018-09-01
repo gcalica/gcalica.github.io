@@ -9,6 +9,7 @@ labels:
   - Learning
 ---
 
+<img class="ui small right circular floated image" src="../images/roombrah.png">
   I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. I was already getting comfortable with Java, especially with inheritance in an object-oriented programming language. Heading into my third semester, my ICS 314 (Software Engineering) course uses Javascript instead of Java. After some reading into Javascript, these are my thoughts and worries on Javascript.
 
 # Behavior

@@ -10,12 +10,12 @@ labels:
 ---
 
 <img class="ui small right circular floated image" src="../images/jslogo.png">
-    I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. I was already getting comfortable with Java, especially with inheritance in an object-oriented programming language. Heading into my third semester, my ICS 314 (Software Engineering) course uses Javascript instead of Java. After some reading into Javascript, these are my thoughts and worries on Javascript.
+  I had been learning and coding with Java for a year, and it is also my first programming language that I have learned. I was already getting comfortable with Java, especially with inheritance in an object-oriented programming language. Heading into my third semester, my ICS 314 (Software Engineering) course uses Javascript instead of Java. After some reading into Javascript, these are my thoughts and worries on Javascript.
 
 # Behavior
 
 ### Weakly Typed
-    The most immediate difference between Javascript and Java was the declaration of variables. Instead of declaring variables with their primitives, Javascript simply uses *let* and *const* followed by a variable. That got me immediately thinking, "how do I know what type of variable this is, then?"
+  The most immediate difference between Javascript and Java was the declaration of variables. Instead of declaring variables with their primitives, Javascript simply uses *let* and *const* followed by a variable. That got me immediately thinking, "how do I know what type of variable this is, then?"
   
 Instead of having to declare the type of the variable like in Java,
   ```java
@@ -29,15 +29,17 @@ function test(arr) {
   arr[0] = "Hello World!";
 }
 ```
-    In the code snippet above, we simply passed *arr* as an argument for the test function. But if we take a look at what the function is doing, then we can see clearly that *arr* is suppose to be an array. However, it seems like that Javascript doesn't seem to care. It just magically seems to know that arr is a function based on how we inserted the string "Hello World" into the 0*th* index of *arr*. The part that worries me the most when it comes to this "weakly typed" language is that it could possibly be harder to debug code if I don't explicitly know what the type an object is right away. 
+  In the code snippet above, we simply passed *arr* as an argument for the test function. But if we take a look at what the function is doing, then we can see clearly that *arr* is suppose to be an array. However, it seems like that Javascript doesn't seem to care. It just magically seems to know that arr is a function based on how we inserted the string "Hello World" into the 0*th* index of *arr*. The part that worries me the most when it comes to this "weakly typed" language is that it could possibly be harder to debug code if I don't explicitly know what the type an object is right away. 
 
 ### Classes
-    Another difference that I learned when it comes to Javascript is that it uses an object-oriented programming style called **prototypal** OO. In Java, there is a distinct difference between a *Class* and an *object*. A Class is the blueprint that creates objects, which are instances of a Class, that contain the object's behavior and states. 
-    However, in JavaScript, there seems to be no distinct difference between a Class and an object. Classes themselves are also considered objects. There seems to be no real reason to use classes in Javascript other than working with a simpler syntax. 
+  Another difference that I learned when it comes to Javascript is that it uses an object-oriented programming style called **prototypal** OO. In Java, there is a distinct difference between a *Class* and an *object*. A Class is the blueprint that creates objects, which are instances of a Class, that contain the object's behavior and states. 
+  
+  However, in JavaScript, there seems to be no distinct difference between a Class and an object. Classes themselves are also considered objects. There seems to be no real reason to use classes in Javascript other than working with a simpler syntax. 
 
 # Functional Programming
-
-    One particular thing that I am interested about when it comes to Javascript is functional programming. We all know that Java is an OOP language which means that it uses objects to model real world things. But what if the program that I want to code doesn't need to be modeled after a real world object? In particular, what if I don't want my "objects" and their properties to be constantly changing all over the place. I believe that is when functional programming comes into play. With my limited knowledge of the subject, I think functional programming aims to have *functions* rather than objects as the building blocks for a program. Rather than modifying the objects themselves, the objects are passed around functions and those functions do the work instead. Functional programming emphasizes on avoiding changing states and working with mutable data. 
+  One particular thing that I am interested about when it comes to Javascript is functional programming. We all know that Java is an OOP language which means that it uses objects to model real world things. But what if the program that I want to code doesn't need to be modeled after a real world object? In particular, what if I don't want my "objects" and their properties to be constantly changing all over the place. I believe that is when functional programming comes into play. With my limited knowledge of the subject, I think functional programming aims to have *functions* rather than objects as the building blocks for a program. 
+  
+  Rather than modifying the objects themselves, the objects are passed around functions and those functions do the work instead. Functional programming emphasizes on avoiding changing states and working with mutable data. 
 
 ***
 T

@@ -27,9 +27,10 @@ For example,
 ```javascript
 function test(arr) {
   arr[0] = "Hello World!";
+  return arr[0];
 }
 ```
-  In the code snippet above, we simply passed *arr* as an argument for the test function. But if we take a look at what the function is doing, then we can see clearly that *arr* is suppose to be an array. However, it seems like Javascript doesn't seem to care. It just magically seems to know that *arr* is supposed to be a variable that holds an array based on how we inserted the string "Hello World" into the 0*th* index of *arr*. The part that worries me the most when it comes to this "weakly typed" language is that it could possibly be harder to debug code if I don't explicitly know what the type an object is right away. 
+  In the code snippet above, we simply passed *arr* as a parameter for the test function. But if we take a look at what the function is doing, then we can see clearly that *arr* is suppose to be an array based off of the second line. However, it seems like Javascript doesn't seem to care. It just magically seems to know that *arr* is supposed to be a variable that holds an array based on how we inserted the string "Hello World" into the 0*th* index of *arr*. The part that worries me the most when it comes to this "weakly typed" language is that it could possibly be harder to debug code if I don't explicitly know what the type an object is right away. 
 
 ### Classes
   Another difference that I learned when it comes to Javascript is that it uses an object-oriented programming style called **prototypal** OO. In Java, there is a distinct difference between a *Class* and an *object*. A Class is the blueprint that creates objects, which are instances of a Class, that contain the object's behavior and states. 
@@ -37,9 +38,9 @@ function test(arr) {
   However, in JavaScript, there seems to be no distinct difference between a Class and an object. Classes themselves are also considered objects. There seems to be no real reason to use classes in Javascript other than working with a simpler syntax. 
 
 # Functional Programming
-  One particular thing that I am interested about when it comes to Javascript is functional programming. We all know that Java is an OOP language which means that it uses objects to model real world things. But what if the program that I want to code doesn't need to be modeled after a real world object? In particular, what if I don't want my "objects" and their properties to be constantly changing all over the place. I believe that is when functional programming comes into play. With my limited knowledge of the subject, I think functional programming aims to have *functions* rather than objects as the building blocks for a program. 
+  One particular thing that I am interested about when it comes to Javascript is functional programming. We all know that Java is an OOP language which means that it primarily uses objects to model real world things. But what if the program that I want to code doesn't need to be modeled after a real world object? In particular, what if I don't want my "objects" and their properties to be constantly changing all over the place. I believe that is when functional programming comes into play. With my limited knowledge of the subject, I think functional programming aims to have *functions* rather than objects as the building blocks for a program. 
   
-  Rather than modifying the objects themselves, the objects are passed around functions and those functions do the work instead. Functional programming emphasizes on avoiding changing states and working with mutable data. 
+  Rather than modifying the objects themselves, the objects are passed around functions and those functions do the work instead. Functional programming heavily emphasizes on avoiding changing states and working with mutable data. 
 
 ***
-Overall, I am excited to expand my skillset through learning Javascript. Although Javascript isn't just limited to web development, I still do feel though and have heard that there could be better programming languages than Javascript if I were to use it for non-web development use. Regardless, being able to build a web app through Javascript would be an important skill to have. In the future, I do plan on building websites for my own personal use; therefore, learning Javascript is a good way to start for this future plan.
+Overall, I am excited to expand my skillset through learning Javascript. Although Javascript isn't just limited to web development, I have heard that there could be better programming languages than Javascript if I were to use it for non-web development use. Regardless, being able to build a web app through Javascript would be an important skill to have. In the future, I do plan on building websites for my own personal use; therefore, learning Javascript is a good way to start for this future plan.

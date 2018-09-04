@@ -58,7 +58,7 @@
 				"MacOS",
 				"Windows 10",
 				"Eclipse",
-				"Microsoft Office",
+				"Microsoft Office"
 			]
 		}
 	],
@@ -70,9 +70,9 @@
 		"endDate": "Present",
 		"gpa": "",
 		"courses": [
-			"ICS 111 - Intro to Computer Science I"
-			"ICS 141 - Discrete Mathematics I"
-			"ICS 211 - Intro to Computer Science II"
+			"ICS 111 - Intro to Computer Science I",
+			"ICS 141 - Discrete Mathematics I",
+			"ICS 211 - Intro to Computer Science II",
 			"ICS 241 - Discrete Mathematics II"
 		]
 	}],

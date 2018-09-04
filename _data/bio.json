@@ -59,7 +59,6 @@
 				"Windows 10",
 				"Eclipse",
 				"Microsoft Office",
-				"Hitfilm Express"
 			]
 		}
 	],
@@ -70,11 +69,13 @@
 		"startDate": "2017-08-21",
 		"endDate": "Present",
 		"gpa": "",
-		"courses": []
+		"courses": [
+			"ICS 111 - Intro to Computer Science I"
+			"ICS 141 - Discrete Mathematics I"
+			"ICS 211 - Intro to Computer Science II"
+			"ICS 241 - Discrete Mathematics II"
+		]
 	}],
-	"work": [],
-	"volunteer": [],
-	"awards": [],
 	"references": [{
 		"name": "Available upon request",
 		"reference": ""

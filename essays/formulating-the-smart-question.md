@@ -21,5 +21,5 @@ labels:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But, what if for instance if your question was closed due to being considered a duplicate, that when you do go to the question that's considered the 'original' of your duplicate question, none of the solutions from that thread can be applied to your problem? Chances are, you just need to reword and formulate a new question in a smarter way so that it may be answered with possible solutions that are targeted specifically for your problem. 
 
 ### How To Ask Questions The Smart Way
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eric Steven Raymond wrote a useful and comprehensive essay that establishes guidelines for asking a smart question---[How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eric Steven Raymond wrote a useful and comprehensive essay that establishes guidelines for asking a smart question---[How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html). Using these guidelines, let us look at a question that would satisfy the rules of what it means for a question to be a smart question. 
 

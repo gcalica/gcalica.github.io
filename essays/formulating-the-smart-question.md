@@ -28,7 +28,7 @@ labels:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right off the bat, we can see that this question followed Eric Steven Raymond's guideline on using the format "object - deviation" for the title of the question. The object---"find resource("") returning null when module-info.java is present"---is concise and to the point. Although Eric's guidelines suggest specifying details such as IDE, OS, and any other environmental details in the title, it is redudant in StackOverflow as the website has "tags" where you can create tags for such details. We do see in this thread that the questioner does indeed make use of these tags by tagging the appropriate details such as "java," "spring-boot," "java-10," "java-module," and "jigsaw."
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This question actually satisfies all of the following guideliness by Eric:
+This question actually satisfies all of the following guideliness by Eric:
 * Describe the symptoms of your problem or bug carefully and clearly.
 * Describe the environment in which it occurs (machine, OS, application, whatever).
 * Describe the research you did to try and understand the problem before you asked the question.

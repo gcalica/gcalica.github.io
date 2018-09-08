@@ -48,6 +48,5 @@ Now let's look at what the opposite of a smart question looks like: [How to show
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, that doesn't mean smart questions are not rewarded. Meticulously typed and smart questions are more likely to be given an effort to find a possible solution by a respondent, as is the case with our [smart question example](https://stackoverflow.com/questions/51944963/findresource-returning-null-when-module-info-java-is-present-why-is-that). One of the respondents in this question thread gave the effort to find a solution by recreating the example that was thorougly given by the questioner. Why? Because the questioner also gave the effort in reproducing the problem and giving the method of reproducing the problem for others to test. If this question was not as thoroughly typed out as it is, most respondents would most likely just look through the question and try to search other sources that could potentially lead to possible solutions. They most likely would not go as far as to test out an actual possible solution, which would be extremely helpful in this case where heavy debugging is involved.  
 
-*** 
-As software engineers, it is important to develop the ability to ask smart questions. Being able to ask smart questions isn't just a skill limited to being able to get answers from StackOverflow. It is also a skill that works simultaneously with problem solving skills. The process in developing a smart question to get solutions is the same process that software engineers use to get solutions for problems. 
+
   

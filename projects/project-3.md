@@ -22,7 +22,7 @@ summary: For my ENG 100 class, we were given freedom to express one of our resea
 In my ENG 100 class, we wrote three papers prior to this project. As for this fourth project, we could "remix" any of our previous three
 papers into a different form of creative medium. We could express a paper as a song, video, presentation, etc... 
 
-My second paper that I wrote was about how computers and technology has made our lives easier, and their major role in our society. Rather than create a Microsoft Powerpoint, I decided that my creative outlet would be to code my own presentation slides that summarizes my second paper. 
+My second paper that I wrote was about how computers and technology has made our lives easier, and their major role in our society. Rather than create a Microsoft Powerpoint, I decided that my creative medium would be to code my own presentation slides that summarizes my second paper. 
 
 In this program, you can click through the next or previous "slides" by clicking continue or back, respectively. The program is desgined to be interactive. In the first few slides, you can click the images that would play sounds. The other slides show and animate the capabilities that computers can do. 
 

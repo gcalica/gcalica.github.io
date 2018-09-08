@@ -37,7 +37,7 @@ This question actually satisfies all of the following guideliness presented by E
 
 #### Not-So-Smart Question
 Now let's look at what the opposite of a smart question looks like: [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere).
-<img class="ui big rounded image" src="../images/essay2pic1.png">
+<img class="ui big middle aligned rounded image" src="../images/essay2pic1.png">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at this question, it is very obvious that English is not this person's first language. In this case, Eric Steven Raymond notes that the questioner should alert potential respondents about their language difficulties. The simple phrase "English is not my first language" would go a long way. 
 

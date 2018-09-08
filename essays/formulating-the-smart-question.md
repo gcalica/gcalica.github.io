@@ -50,5 +50,4 @@ Now let's look at what the opposite of a smart question looks like: [How to show
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulating a smart question to ask is a crucial step to being able to receive the specific answer that you need and want for your problem. Eric Steven Raymond's guidelines is a great base to start and follow from in order to ask smart questions. 
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That being said, it seems people do not mind sharing a potential solution to a question regardless if it followed all of Eric Steven Raymond's guideliness. As long as it does not violate StackOverflow's rules on questions such as duplicates, off-topic, or blatant "debug and fix my code for me" questions, people will still most likely respond to your question. As is the case with the [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere) question. Despite being a question that was worded poorly, three users still answered with solutions that even showed how to setup the solution.
- <img class="ui medium rounded image" src="../images/essay2pic2.png">
   

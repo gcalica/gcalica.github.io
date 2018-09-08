@@ -23,6 +23,7 @@ labels:
 ### How To Ask Questions The Smart Way
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eric Steven Raymond wrote a useful and comprehensive essay that establishes guidelines for asking a smart question---[How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html). Using these guidelines, let us look at a question that would satisfy the rules of what it means for a question to be a smart question. 
 
+#### Smart Question
 [findResource(“”) returning null when module-info.java is present, why is that?](https://stackoverflow.com/questions/51944963/findresource-returning-null-when-module-info-java-is-present-why-is-that)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right off the bat, we can see that this question followed Eric Steven Raymond's guideline on using the format "object - deviation" for the title of the question. The object---"find resource("") returning null when module-info.java is present"---is concise and to the point. Although Eric's guidelines suggest specifying details such as IDE, OS, and any other environmental details in the title, it is redudant in StackOverflow as the website has "tags" where you can create tags for such details. We do see in this thread that the questioner does indeed make use of these tags by tagging the appropriate details such as "java," "spring-boot," "java-10," "java-module," and "jigsaw."
@@ -36,6 +37,7 @@ labels:
 
 With such a meticulously typed out question als..
 
+#### Not-So-Smart Question
 Now let's look at what the opposite of a smart question looks like: [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere).
 <img class="ui big rounded image" src="../images/essay2pic1.png">
 

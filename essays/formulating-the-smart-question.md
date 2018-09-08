@@ -28,15 +28,12 @@ labels:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right off the bat, we can see that this question followed Eric Steven Raymond's guideline on using the format "object - deviation" for the title of the question. The object---"find resource("") returning null when module-info.java is present"---is concise and to the point. Although Eric's guidelines suggest specifying details such as IDE, OS, and any other environmental details in the title, it is redudant in StackOverflow as the website has "tags" where you can create tags for such details. We do see in this thread that the questioner does indeed make use of these tags by tagging the appropriate details such as "java," "spring-boot," "java-10," "java-module," and "jigsaw."
 
-This question actually satisfies all of the following guideliness by Eric:
+This question actually satisfies all of the following guideliness presented by Eric:
 * Describe the symptoms of your problem or bug carefully and clearly.
 * Describe the environment in which it occurs (machine, OS, application, whatever).
 * Describe the research you did to try and understand the problem before you asked the question.
 * Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
-* Describe any possibly relevant recent changes in your computer or software configuration.
 * If at all possible, provide a way to reproduce the problem in a controlled environment.
-
-With such a meticulously typed out question als..
 
 #### Not-So-Smart Question
 Now let's look at what the opposite of a smart question looks like: [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere).
@@ -46,8 +43,7 @@ Now let's look at what the opposite of a smart question looks like: [How to show
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, I considered this particular question as an extreme example of language difficulties so I looked into this user's profile. Looking into this user's profile, it seems that this user can type in normal English just fine. Although his other StackOverflow questions and answers could use some more grammatical improvement, this user's English on other posts seem easier to read compared to this particular question that he posted. It seems like this user did not even try to formulate the question any way close to being a decent question. 
 
-***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulating a smart question to ask is a crucial step to being able to receive the specific answer that you need and want for your problem. Eric Steven Raymond's guidelines is a great base to start and follow from in order to ask smart questions. 
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That being said, it seems people do not mind sharing a potential solution to a question regardless if it followed all of Eric Steven Raymond's guideliness. As long as it does not violate StackOverflow's rules on questions such as duplicates, off-topic, or blatant "debug and fix my code for me" questions, people will still most likely respond to your question. As is the case with the [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere) question. Despite being a question that was worded poorly, three users still answered with solutions that even showed how to setup the solution.
+# Are smart questions rewarded?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulating a smart question is a crucial step to being able to receive the specific answer that you need and want for your problem. That being said, it seems people do not mind sharing a potential solution to a question regardless if it followed all of Eric Steven Raymond's guideliness. As long as it does not violate StackOverflow's rules on questions such as duplicates, off-topic, or blatant "debug and fix my code for me" questions, people will still most likely respond to your question, as is the case with the [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere) question. Despite being a question that was worded poorly, three users still answered with solutions that even showed how to setup the solution.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, that doesn't mean smart questions are not rewarded. Meticulously typed and smart questions are more likely to be given an effort to find a possible solution by a respondent, as is the case with our [smart question example](https://stackoverflow.com/questions/51944963/findresource-returning-null-when-module-info-java-is-present-why-is-that). One of the respondents in this question thread gave the effort to find a solution by recreating the example that was thorougly given by the questioner. 
   

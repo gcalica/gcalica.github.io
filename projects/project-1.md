@@ -19,23 +19,23 @@ There isn't much the user can do in this program; he can only run the program an
 Here is a snippet of the code from this program that places the coin images, background floor images, and wall images at the edges of the screen using simple arithmethic to spawn them in a grid-like pattern. 
 ```java
 for(int row = 0; row < HEIGHT; row++) { 
-	for (int column = 0; column < charInput.length(); column++) {
-		char ch = charInput.charAt(column); 
-		switch(ch) { 
-		case 'W': 
-			wallArray[wallArrayCount] = EZ.addImage("redwood.png", 16 + (column * 32), 16 + (row * 32)); 
-			wallArrayCount++; 
-			break; 
-		case 'C': 
-			coinArray[coinArrayCount] = EZ.addImage("coin.png", 16 + (column * 32), 16 + (row * 32));
-			coinArrayCount++; 
-			break; 
-		case '.': 
-			EZ.addImage("floor.png", 16 + (column * 32), 16 + (row * 32)); 
-			break; 
-		default: 
-			break;
-		} 
+  for (int column = 0; column < charInput.length(); column++) {
+    char ch = charInput.charAt(column); 
+    switch(ch) { 
+      case 'W': 
+        wallArray[wallArrayCount] = EZ.addImage("redwood.png", 16 + (column * 32), 16 + (row * 32)); 
+        wallArrayCount++; 
+	break; 
+      case 'C': 
+	coinArray[coinArrayCount] = EZ.addImage("coin.png", 16 + (column * 32), 16 + (row * 32));
+	coinArrayCount++; 
+	break; 
+      case '.': 
+	EZ.addImage("floor.png", 16 + (column * 32), 16 + (row * 32)); 
+	break; 
+      default: 
+	break;
+    } 
 } 
 ```
 

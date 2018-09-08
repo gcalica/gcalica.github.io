@@ -26,3 +26,5 @@ labels:
 ..
 Now let's look at what the opposite of a smart question looks like: [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere).
 <img class="ui large right rounded floated image" src="../images/essay2pic1.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at this question, it is very obvious that English is not this person's first language. In this case, Eric Steven Raymond notes that the questioner should alert potential respondents about their language difficulties. The simple phrase "English is not my first language" would go a long way. However, I considered this particular question as an extreme example of language difficulties so I looked into this user's profile. Looking into this user's profile, it seems that this user can type in normal English just fine. Although his other StackOverflow questions and answers do not properly use commas, this user's English on other posts seem normal compared to this particular question that he posted. So it seems like this user did not even try to formulate the question any way close to being a decent question. 

@@ -25,7 +25,16 @@ labels:
 
 [findResource(“”) returning null when module-info.java is present, why is that?](https://stackoverflow.com/questions/51944963/findresource-returning-null-when-module-info-java-is-present-why-is-that)
 
-.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right off the bat, we can see that this question followed Eric Steven Raymond's guideline on using the format "object - deviation" for the title of the question. The object---"find resource("") returning null when module-info.java is present"---is concise and to the point. Although Eric's guidelines suggest specifying details such as IDE, OS, and any other environmental details in the title, it is redudant in StackOverflow as the website has "tags" where you can create tags for such details. We do see in this thread that the questioner does indeed make use of these tags by tagging the appropriate details such as "java," "spring-boot," "java-10," "java-module," and "jigsaw."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This question also actually satisfies all of the following guideliness by Eric:
+* Describe the symptoms of your problem or bug carefully and clearly.
+* Describe the environment in which it occurs (machine, OS, application, whatever).
+* Describe the research you did to try and understand the problem before you asked the question.
+* Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
+* Describe any possibly relevant recent changes in your computer or software configuration.
+* If at all possible, provide a way to reproduce the problem in a controlled environment.
+
+With such a meticulously typed out question als..
 
 Now let's look at what the opposite of a smart question looks like: [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere).
 <img class="ui big rounded image" src="../images/essay2pic1.png">
@@ -36,7 +45,7 @@ Now let's look at what the opposite of a smart question looks like: [How to show
 
 ***
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulating a smart question to ask is a crucial step to being able to receive the specific answer that you need and want for your problem. Eric Steven Raymond's guidelines is a great base to start and follow from in order to ask smart questions. 
- <img class="ui small right circular floated image" src="../images/essay2pic2.png">
+ <img class="ui medium right circular floated image" src="../images/essay2pic2.png">
  That being said, it seems people do not mind sharing a potential solution to a question regardless if it followed all of Eric Steven Raymond's guideliness. As long as it does not violate StackOverflow's rules on questions such as duplicates, off-topic, or blatant "debug and fix my code for me" questions, people will still most likely respond to your question. As is the case with the [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere) question. Despite being a question that was worded poorly, three users still answered with solutions that even showed how to setup the solution.
 
   

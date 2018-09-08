@@ -23,3 +23,6 @@ labels:
 ### How To Ask Questions The Smart Way
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eric Steven Raymond wrote a useful and comprehensive essay that establishes guidelines for asking a smart question---[How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html). Using these guidelines, let us look at a question that would satisfy the rules of what it means for a question to be a smart question. 
 
+..
+Now let's look at what the opposite of a smart question looks like: [How to show a screen when app crash anywhere](https://stackoverflow.com/questions/52232981/how-to-show-a-screen-when-app-crash-anywhere).
+<img class="ui large right rounded floated image" src="../images/essay2pic1.png">

@@ -37,10 +37,6 @@
 		{
 			"name": "Mobile App Development",
 			"keywords": []
-		},
-		{
-			"name": "Video Editing",
-			"keywords": []
 		}
 	],
 	"skills": [{
@@ -57,8 +53,7 @@
 			"keywords": [
 				"MacOS",
 				"Windows 10",
-				"Eclipse",
-				"Microsoft Office"
+				"Eclipse"
 			]
 		}
 	],

@@ -11,9 +11,30 @@ labels:
   - Javascript
   - Learning
 ---
+#Coding Standards
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using coding standards or conventions is a standard software engineering process to improve overall readability and structural quality of your code. But why follow them? Considering the fact that they are not really enforced by compilers. Maybe your favorite IDE could conform to basic coding standards by formatting it for you (provided that you actually command the IDE to format your code), but that approach is quite limited. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coding standards are more than just how many spaces each line of code should indent or how many whitespaces should be between each function or method. They can also include naming conventions for your file, function, or variable names. Since there are many ways to code a certain program or function, coding standards also sets the baseline as to how these programs or functions are supposed to look like syntactically. 
 
-<img class="ui small right circular floated image" src="../images/es6.png">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example, let's take the new features that came in with EMCAScript 6(ES6)---*const* and *let*. With the addition of *const* and *let*, it has become to standard to use them over *var*. But even under the version of ES6, we are still allowed to use *var* to declare our variables. The compiler is not gonna 
+#Productivity
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backed by many studies, it has been proven that most of your time spent 'programming' is actually debugging. Debugging means that you have to go through and read possibly thousands or more lines of code. If each person or a few people in the development team do not follow the coding standard defined by the team, it significantly decreases productivity. This is especially the case when you are reading someone else's code with a different coding format than that set by the standard of your team. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When you have a consistent coding standard, reading code becomes much easier as you do not have to look too much into someone else's code to know where and how things are happening. For example,
+```javascript
+function functionChain(data) {
+  return _.chain(data).filter(key => key > 2).uniq('ID').reduce((memo, key) => memo + key).value(); 
+}
+```
+From the code snippet above, we cannot easily pick up what this function may be doing. However, if we had set a coding standard where you are required to start a new line for each function call in any function chain:
+```javascript
+function functionChain(data) {
+  return _.chain(data)
+  .filter(key => key > 2)
+  .uniq('ID')
+  .reduce((memo, key) => memo + key)
+  .value(); 
+}
+```
+Now we can more clearly read and see what exactly is happening in the function above. 
+
 

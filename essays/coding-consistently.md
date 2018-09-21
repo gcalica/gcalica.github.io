@@ -39,6 +39,7 @@ Now we can more clearly read and see what exactly is happening in the function a
 
 #Linters
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As coding standards have become a highly recommended practice in development in general, people have created many tools to better enforce these coding standards and remind you of any errors that go against the coding standards. Some of these tools are called linters. Linter(s) is a tool(s) that analyzes your code to flag any programming errors, bugs, and any stylistic errors that could go against the coding standard you have setup for your program. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From my own personal experience, linters have increased the quality of my code. I'm currently programming in Javascript using EMCAScript 6, and the use of a linter called ESLint have reminded me of the many uses and features that come with EMCAScript 6. For example, the use of template literals. Coming from Java, I was used to Java's concatenation of strings--- ``` String c = String a + String b + "Some text";``` However, ESLint has constantly reminded me over and over to use template literals for a better formation option that utilizes ES6. 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Programming Like a Human
+title: Building UI Made Easier
 # All dates must be YYYY-MM-DD format!
 date: 2018-10-04
 labels:
@@ -19,5 +19,8 @@ labels:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seems pretty simple so far, right? I mean, navigation bars are most of the time just a one horizontal line with just hyperlinked text. But, what if we want to change how it looks when we interact with it? Let's say we want each item in the navigation bar to be highlighted when we hover over it. And we want half of the items in the navigation bar to be in the far left side and the other half being on the far right side of the page. Now, we could style this using pure CSS. But that would take a tedious amount of time. As developers, we want to do things fast and efficient. So we use a UI Framework to help us. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is standard for UI frameworks to take care of the things that we wanted in a few lines, if not a single line. Little details such as the background color of an item being changed into something darker when we hover it can be done using built in classes from these frameworks in one line. To add on to this already great template that UI frameworks give us, we can customize it even more. So instead of expending the effort to implement the features that we wanted in pure CSS plus any other customizable features, we can use UI frameworks to help us implement the feature that we want in one line and then add any other custom style that we want on top of it. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is standard for UI frameworks to take care of the things that we wanted in a few lines, if not a single line. Little details such as the background color of an item being changed into something darker when we hover it can be done using built in classes from these frameworks in one line. To add on to this already great template that UI frameworks give us, we can customize it even more. So instead of expending the effort to implement the features that we wanted in pure CSS plus any other custom style features that we also want to implement, we can use UI frameworks to help us implement the feature that we want in one line and then add any other custom style that we want on top of it. 
+
+# Semantic UI
+One great UI framework that is easy to learn and master is Semantic UI. <img class="ui medium right floated image" src="../images/semanticuilogo.png">
 

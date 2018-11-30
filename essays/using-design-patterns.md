@@ -22,6 +22,22 @@ labels:
 ### Model-View-Controller (MVC)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Model-View-Controller is a very common design pattern found in almost any web application. The 'Model' part of this design pattern is usually our database. It is the part that exposes any functionality of our app and responsible for responding to query calls to the server. It is connected to the 'View' part of our design pattern by notifying any changes to the state of our model to the 'View.' The 'View' is exactly what the word says, it is the part of our app that presents and renders the 'Model.' It is notified by the 'Model' for any changes and requests for the updated changes to render them in 'View.' This 'View' is also connected to our 'Controller' part of the design pattern. The 'Controller' handles and defines the behavior of the functionality of our app. It is connected to 'View' by controlling what 'View' will render and it is connected to 'Model' by updating the 'Model' for any changes in the state.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This design pattern is our top-level pattern that we apply to our web app. In our case, our 'Model' is MongoDB, our 'View' is React, and our Controller is 'React-Router.'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This design pattern is our top-level pattern that we apply to our web app. In our case, our 'Model' is MongoDB, our 'View' is React, and our Controller is 'React-Router.' In essence, this design pattern also allowed us to organize the work for our web app. Front-end people of our app dealt only with the 'View' and the back-end dealt only with the 'Model' and 'Controller.'
+
+### Singleton
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Singleton design pattern is a way of creating a single instance of a class, and exposing that instance globally to the rest of the app. This is a way of making sure that we only have one instance of something, and it is only through that instance we invoke the methods of that instance. In our app, this is implemented with our Collections API. We have collection classes that are connected to the MongoDB collection of that collection:
+```javascript
+class IssuesCollection extends BaseCollection {
+  constructor() {
+    super('Issues', IssuesSchema);
+  }
+
+  ... methods ...
+  export const Issues = new IssuesCollection();
+}
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As seen from the code above, we implement the Singleton design pattern with the last line of code. We create an instance of IssuesCollection class and expose that instance globally by exporting it. When it comes to MongoDB collections, we only need one instance of a collection to work with. Therefore, this Singleton design pattern is an appropriate design pattern to use for our MongoDB collections. We can then access this collection by defining methods in this Collection class. Since we know that we only have one instance of this collection, we can be confident that any data that we access from this collection has not been touched by another instance.
+
+### Reactive Data
 
 

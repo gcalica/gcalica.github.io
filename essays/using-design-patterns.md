@@ -38,6 +38,25 @@ class IssuesCollection extends BaseCollection {
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As seen from the code above, we implement the Singleton design pattern with the last line of code. We create an instance of IssuesCollection class and expose that instance globally by exporting it. When it comes to MongoDB collections, we only need one instance of a collection to work with. Therefore, this Singleton design pattern is an appropriate design pattern to use for our MongoDB collections. We can then access this collection by defining methods in this Collection class. Since we know that we only have one instance of this collection, we can be confident that any data that we access from this collection has not been touched by another instance.
 
-### Reactive Data
+### Reactive Components
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meteor, the web framework that our project is using, has a great way of handling reactivity of data. We can handle any reactive data inside a withTracker() container. When building our app, we knew that we will be making use of many components. And that these components would also be used within components.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As such, we used the following design pattern when fetching data for our components. All fetching of data from the Collections are handled in the pages files in 'ui/pages' directory. For example, our [MapPage.jsx](https://github.com/manoafixit/manoafixit/blob/dev/app/imports/ui/pages/MapPage.jsx) page file fetches all of the issues data from our IssuesCollection inside the withTracker container. Now that we have this data, we then pass the data as a prop for MapPage. Inside our Mappage.jsx file, we can then pass this props to any component that needs it. For example, if we want to pass our issues props into multiple components, we do the following:
+```javascript
+<ComponentA issues={this.props.issues}/>
+<ComponentB issues={this.props.issues}/>
+
+MapPage.propTypes = {
+  issues: PropTypes.array.isRequired,
+};
+
+export default withTracker(() => {
+  const sub = Meteor.subscribe('IssuesCollection');
+  return {
+    issues: Issues.find({}).fetch(),
+  };
+})(MapPage);
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now let's say we want ComponentA to filter the props it was passed to get specific data from the issues. It is inside the ComponentA file (not the MapPage file) that we do the filtering of data. This is a design pattern where we have pages as our top-level component (i.e., MapPage) fetch data from the collections and pass it as a prop to Components that need it. And that this props data being passed stays pure throughout being passed to the components, and that a copy of the props is the only data gets filtered or touched when needed by the component. This ensures that a component does not make the data impure by changing the data (via another withTracker container within the component) then passing that changed data to another component.
 

@@ -2,20 +2,18 @@
 layout: project
 type: project
 image: images/gather.png
-title: HACC 2018: GATHER App
+title: GATHER App
 permalink: projects/gather
 # All dates must be YYYY-MM-DD format!
 date: 2018-11-10
 labels:
-  - Hackathon
-  - HACC 2018
-  - GATHER
   - Software Engineering
-  - Web Development
-  - Backend Development
-summary: I participated in my first hackathon, the Hawaii Annual Code Challenge 2018, and created the GATHER app with six other members.
+  - HACC 2018
+  - Hackathon
+  - Meteor
+  - Javascript
+summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative medium. I chose to express my English paper as a program.
 ---
-
 # Overview
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On October 20, 2018, coders of all levels, from amateurs to working professionals, gathered around in the East-West Center on the University of Hawaii campus to attend the Hawaii Annual Code Challenge (HACC 2018). This year's theme for the hackathon was centered around the sustainability goals presented by the [Aloha Challenge Dashboard](https://dashboard.hawaii.gov/aloha-challenge). During the kickoff event, a total of seven different departments presented challenges that each department is facing and need help in. The challenge that my group decided to take on was the Office of Sustainability (UH)'s challenge on Waste Audit Data Collection.
 
@@ -52,13 +50,14 @@ In this page of our web application, the Waste Audit volunteers can manually ent
 
 <img class="ui image centered" src="../images/gatherapp2.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because the data from all of the conducted Waste Audits are centralized into one database, this allows us to create a powerful extension from the data that solves the last problem--which is being able to easily visualize the data collected. Our web application has a Dashboard page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because the data from all of the conducted Waste Audits are centralized into one database, this allows us to create a powerful extension from the data that solves the last problem--which is being able to easily visualize the data collected. Our web application has a Dashboard page that gives an overview of the data collected from all previous Waste Audit events. There are also composition, comparison, and transition charts that help analyze the trend of waste streams of the UH campuses found during the Waste Audit events.
 
 # My Contribution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was assigned as one of the two back-end developers, responsible for creating the back-end structure of our web app. My tasks included creating the API of our web application, setting up our MongoDB database in mLab, and creating the collections ("tables" is the equivalent in SQL language) of our database. And the majority of my contributions were the Wrapper class on the server-side. The Wrapper class is a class of modules to be used by our front-end developers. The functions inside the Wrapper class all connect to our MongoDB database, and their primary function is to query and fetch data from the database. Our back-end was composed of many collections, therefore it was my job was to be able to query those data. These functions would then be used by our front-end programmers to render the data back into our web application.
 
-## Problems Encountered
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our web application used the Meteor web framework for the foundation and React for our front-end interface. In my case, I worked exclusively with Meteor and it was my first time truly using Meteor to its full potential. A lot of the problems that I encountered were related to Meteor and overall just having limited knowledge of the framework. Originally, I was only supposed to be a "Research Team" member for this group, which was just to research the libraries and how Meteor worked. I would then relay my findings to the actual front-end and back-end programmers for the project. However, I ended up being assigned to being a developer for the back-end with less than 10 days left before the due date. Despite my research into the Meteor framework prior, there was definitely a massive distinction in knowing the framework on the surface-level and actually being able to implement and use the framework. Despite having very little time available to do back-end development, I was able to learn and make most of the Wrapper class functions in time.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall, I learned and gained a lot of valuable experience from this hackathon. The most obvious is having learned both the Meteor and React frameworks. I also gained a much more familiar sense as to how to query data from a database and be able to manipulate that data into something usable. 
 
 ---
 * Deployed Website: [GATHER](http://gather.meteorapp.com/#/)

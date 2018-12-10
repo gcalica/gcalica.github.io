@@ -52,10 +52,13 @@ In this page of our web application, the Waste Audit volunteers can manually ent
 
 <img class="ui image centered" src="../images/gatherapp2.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Because the data from all of the conducted Waste Audits are centralized into one database, this allows us to create a powerful extension from the data that solves the last problem--which is being able to easily visualize the data collected. Our web application has a Dashboard page
 
 # My Contribution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was assigned as one of the two back-end developers, responsible for creating the back-end structure of our web app. My tasks included creating the API of our web application, setting up our MongoDB database in mLab, and creating the collections ("tables" is the equivalent in SQL language) of our database. And the majority of my contributions were the Wrapper class on the server-side. The Wrapper class is a class of modules to be used by our front-end developers. The functions inside the Wrapper class all connect to our MongoDB database, and their primary function is to query and fetch data from the database. Our back-end was composed of many collections, therefore it was my job was to be able to query those data. These functions would then be used by our front-end programmers to render the data back into our web application.
+
+## Problems Encountered
+
 
 ---
 * Deployed Website: [GATHER](http://gather.meteorapp.com/#/)

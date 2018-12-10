@@ -37,14 +37,20 @@
 		{
 			"name": "Mobile App Development",
 			"keywords": []
-		}
+		},
+    {
+      "name": "Project Management",
+      "keywords": []
+    }
 	],
 	"skills": [{
 			"name": "Languages and Frameworks",
 			"level": "",
 			"keywords": [
 				"Java",
-				"Javascript"
+				"Javascript",
+        "React",
+        "Meteor"
 			]
 		},
 		{
@@ -52,7 +58,8 @@
 			"level": "",
 			"keywords": [
 				"MacOS",
-				"Windows 10"
+				"Windows 10",
+        "Git / GitHub"
 			]
 		}
 	],
@@ -67,7 +74,9 @@
 			"ICS 111 - Intro to Computer Science I",
 			"ICS 141 - Discrete Mathematics I",
 			"ICS 211 - Intro to Computer Science II",
-			"ICS 241 - Discrete Mathematics II"
+			"ICS 241 - Discrete Mathematics II",
+      "ICS 311 - Algorithms",
+      "ICS 314 - Software Engineering I"
 		]
 	}],
 	"references": [{

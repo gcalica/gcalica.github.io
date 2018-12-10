@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/gather.png
-title: GATHER App
-permalink: projects/mfi-logo.png
+image: images/mfi-logo.png
+title: ManoaFixIt
+permalink: projects/manoafixit
 # All dates must be YYYY-MM-DD format!
 date: 2018-11-10
 labels:

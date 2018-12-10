@@ -12,7 +12,7 @@ labels:
   - Hackathon
   - Meteor
   - Javascript
-summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative medium. I chose to express my English paper as a program.
+summary: I participated in my first hackathon, the Hawaii Annual Code Challenge 2018, and created the GATHER app with six other members.
 ---
 # Overview
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On October 20, 2018, coders of all levels, from amateurs to working professionals, gathered around in the East-West Center on the University of Hawaii campus to attend the Hawaii Annual Code Challenge (HACC 2018). This year's theme for the hackathon was centered around the sustainability goals presented by the [Aloha Challenge Dashboard](https://dashboard.hawaii.gov/aloha-challenge). During the kickoff event, a total of seven different departments presented challenges that each department is facing and need help in. The challenge that my group decided to take on was the Office of Sustainability (UH)'s challenge on Waste Audit Data Collection.

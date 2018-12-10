@@ -32,47 +32,51 @@ summary: Me and my team created a web application called ManoaFixIt that aims to
 
 # ManoaFixIt
 
-#### Submitting an Issue
+### Submitting an Issue
 
 <img class="ui image centered" src="../images/manoafixit1.png">
-<i> Submitting Issue (Desktop) </i>
+<p align="center"><i> Submitting Issue (Desktop) </i></p>
 
 <img class="ui image centered" src="../images/manoafixit2.png">
-<i> Submitting Issue (Mobile) </i>
+<p align="center"><i> Submitting Issue (Mobile) </i></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This page allows users to submit an issue that they encounter on campus. As you can see, only the Issue Title is required to submit an issue. This is to fulfill our second goal which is to make submitting an issue be very minimal effort.
 
-#### List all Issues (Feed Page)
+### List all Issues (Feed Page)
 
 <img class="ui image centered" src="../images/manoafixit3.png">
-<i> Feed Page (Desktop) </i>
+<p align="center"><i> Feed Page (Desktop) </i></p>
 
 <img class="ui image centered" src="../images/manoafixit4.png">
-<i> Feed Page (Mobile) </i>
+<p align="center"><i> Feed Page (Mobile) </i></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This page lists all of the issues that have been submitted. You can search for a particular issue title using the search bar, filter the issues according to a status (Issue Statuses: Open, Accepted, Ongoing, Resolved, and Duplicate), or sort the issues (by Newest, Oldest, Most Liked, and Least Liked). This page only gives you the brief info about that issue: the title, tags, its status, the poster of the issue, how many likes it has, and when the issue was opened. And if you created a particular issue, you can also delete that issue from this page. But if you click on the issue title from this page, it sends you to a page where you can view the full issue's information.
 
-#### Individual Issue Pages
+### Individual Issue Pages
 
 <img class="ui image centered" src="../images/manoafixit7.png">
-<i> Feed Page (Desktop) </i>
+<p align="center"><i> Feed Page (Desktop) </i></p>
 
 <img class="ui image centered" src="../images/manoafixit8.png">
-<i> Feed Page (Mobile) </i>
+<p align="center"><i> Feed Page (Mobile) </i></p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After clicking on a particular issue from the Feed page, it redirects you to that issue's individual page. This page gives all the information about the issue: title, description, tags, likes, and its status. From this page, you can click on "Edit Issue" to edit the issue if you were the poster of that issue (as seen from the mobile version picture). Likewise with the Feed page, you can also like the issue from this page.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After clicking on a particular issue from the Feed page, it redirects you to that issue's individual page. This page gives all the information about the issue: title, description, tags, likes, and its status. From this page, you can click on "Edit Issue" to edit the issue if you were the poster of that issue (as seen from the mobile version picture). Likewise with the Feed page, you can also like the issue from this page. If the logged in user was an Admin account, Admins can change the status of an issue from this page.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another feature with the issues is that in addition to be able to like an issue, you can also reply to that issue. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another feature with the issues is that in addition to be able to like an issue, you can also reply to that issue.
 
-#### Viewing all Issues on the Map (Map Page)
+### Viewing all Issues on the Map (Map Page)
 
 <img class="ui image centered" src="../images/manoafixit5.png">
-<i> Map Page (Desktop) </i>
+<p align="center"><i> Map Page (Desktop) </i></p>
 
 <img class="ui image centered" src="../images/manoafixit6.png">
-<i> Map Page (Mobile) </i>
+<p align="center"><i> Map Page (Mobile) </i></p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When a user submits an issue, the location of where that issue was submitted is tracked. Users can then view all submitted issues whose status Open, Accepted, and Ongoing on the Map page and be able to see the exact location of where an issue was submitted.
 
 # My Contributions
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this project, I had two major roles I played: Project Management and Back-End Developer. Our group only had three members--Adrian Au and Graham Francisco on the front-end and me on the back-end. I created the entire back-end for our web application and also helped with the desktop versions of the pages on the front-end side.
 
 ---
 * Deployed Website: [ManoaFixIt](https://manoafixit.meteorapp.com/)

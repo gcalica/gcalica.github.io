@@ -3,33 +3,17 @@ layout: project
 type: project
 image: images/gather.png
 title: GATHER App
-permalink: projects/gather
+permalink: projects/mfi-logo.png
 # All dates must be YYYY-MM-DD format!
 date: 2018-11-10
 labels:
   - Software Engineering
-  - HACC 2018
-  - Hackathon
+  - Project Management
   - Meteor
+  - React
   - Javascript
-summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative medium. I chose to express my English paper as a program.
----
-# Overview
----
-layout: project
-type: project
-image: images/gather.png
-title: GATHER App
-permalink: projects/gather
-# All dates must be YYYY-MM-DD format!
-date: 2018-11-10
-labels:
-  - Software Engineering
-  - HACC 2018
-  - Hackathon
-  - Meteor
-  - Javascript
-summary: For my ENG 100 class, we were given freedom to express one of our research papers into a different creative medium. I chose to express my English paper as a program.
+  - Web Application Development
+summary: Me and my team created a web application called ManoaFixIt that aims to provide UHM community members a modern way to report non-security related issues.
 ---
 # Overview
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

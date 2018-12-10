@@ -30,7 +30,36 @@ summary: I participated in my first hackathon, the Hawaii Annual Code Challenge 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, data collection during the Waste Audit event is very inefficient. As it is, data collection for the Waste Audit is actually just pencil and paper, which can get pretty messy as trash is handled all over the place and sticky things can get onto the paper. Not only that, sorting the data is also very tedious and inefficient. After all the data has been recorded, the maintainer of the data has to input each data one by one into a spreadsheet. And then they also have to make the charts to visualize these data themselves.
 
 ### Solution
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The problems can be solved by streamlining the Waste Audit data collection into a much more efficient and modern process. Our group provided a solution for this problem by creating a web application that did almost all of the work that the maintainer of the data collection had to do. In fact, even the part of the process where the Waste Audit volunteers had to record the data for each trash bag collected had been solved.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The problems can be solved by streamlining the Waste Audit data collection into a much more efficient and modern process. Our group provided a solution for this problem by creating a web application that did almost all of the work that the maintainer of the data collection had to do. We also created hardware to solve the part of the process where the Waste Audit volunteers had to record the data for each trash bag collected had been solved.
 
 # GATHER
+
+Our solution consisted of two parts:
+* Hardware: the Smart Bin.
+* Software: Our web application [GATHER](http://gather.meteorapp.com/#/)
+
+### Smart Bin
+<img class="ui image circular centered" src="../images/trashbin.jpg">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the old process of data collection, the Waste Audit volunteers had to write down the data for each trash bag. This included the respective category, weight, and volume for that trash bag. To solve this problem, a member of our team created a smart trash bin that could sense the weight and track the items that go inside the trash bin. The tracked data from the bin would then be sent over to the servers of our web application to be recorded and saved in the database. This contraption can also be expanded so that these trash bins can be placed all over campus, and students can actually sort and throw their trash into these bins to help contribute to the data collection.
+
+### Web App
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besides the trash bin, there is also a manual process of recording the data from the Waste Audit into our web app.
+
+<img class="ui image centered" src="../images/gatherapp1.png">
+
+In this page of our web application, the Waste Audit volunteers can manually enter the data for each trash bag that was sorted. This is a much more efficient process than the old pencil and paper as all data can be found in one centralized database--our web app.
+
+<img class="ui image centered" src="../images/gatherapp2.png">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+# My Contribution
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was assigned as one of the two back-end developers, responsible for creating the back-end structure of our web app. My tasks included creating the API of our web application, setting up our MongoDB database in mLab, and creating the collections ("tables" is the equivalent in SQL language) of our database. And the majority of my contributions were the Wrapper class on the server-side. The Wrapper class is a class of modules to be used by our front-end developers. The functions inside the Wrapper class all connect to our MongoDB database, and their primary function is to query and fetch data from the database. Our back-end was composed of many collections, therefore it was my job was to be able to query those data. These functions would then be used by our front-end programmers to render the data back into our web application.
+
+---
+* Deployed Website: [GATHER](http://gather.meteorapp.com/#/)
+* GitHub Repository: <a href="https://github.com/HACC2018/The-Johnson-Family"><i class="large github icon"></i>HACC2018/The-Johnson-Family</a>
+
+
 

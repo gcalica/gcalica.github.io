@@ -21,8 +21,9 @@ summary: Me and my team created a web application called ManoaFixIt that aims to
 
 
 ---
-* Deployed Website: [GATHER](http://gather.meteorapp.com/#/)
-* GitHub Repository: <a href="https://github.com/HACC2018/The-Johnson-Family"><i class="large github icon"></i>HACC2018/The-Johnson-Family</a>
+* Deployed Website: [ManoaFixIt](https://manoafixit.meteorapp.com/)
+* GitHub Repository: <a href="https://github.com/manoafixit/manoafixit"><i class="large github icon"></i>manoafixit/manoafixit</a>
+* GitHub Organization Page: <a href="https://github.com/manoafixit/manoafixit.github.io"><i class="large github alternate icon"></i>ManoaFixIt</a>
 
 
 

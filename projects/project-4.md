@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/gather.png
+image: images/gather.jpg
 title: GATHER App
 permalink: projects/gather
 # All dates must be YYYY-MM-DD format!
